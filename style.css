@@ -15,7 +15,7 @@
     background-attachment: fixed;
 }
 #banner nav{
-    padding: 30px;
+    padding: 5px;
 }
 #banner a{
     font-size: 28px;
@@ -32,7 +32,7 @@
     font-size: 40px;
     padding: 30px;
     opacity: 0.6;
-    margin-top: 300px;
+    margin-top: 200px;
     color: green;
 }
 #banner h1{
@@ -44,6 +44,7 @@
     width: 300px; 
     opacity: 0.7;
     margin: 0 auto;
+    
 }
 #news{
     height: 500px;
