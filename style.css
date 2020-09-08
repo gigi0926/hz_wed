@@ -112,12 +112,12 @@ a.button:hover{
 }
 #box{
     background-attachment: fixed;
-    background-image: url(./images.jpg);
+    background-image: url(./box_h2.jpg);
 
 }
 #box h2{
     text-align: center;
-    color: weith; 
+    color: #aaa;
     font-size: 32px;
     padding: 100px 0;
     backdrop-filter: blur(3px) opacity(70%);
