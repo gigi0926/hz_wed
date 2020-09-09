@@ -17,6 +17,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: red;
+    /* 背景固定 */
     background-attachment: fixed;
 }
 #banner nav{
@@ -146,7 +147,9 @@ a.button:hover{
 }
 #content a{
     height: 300px;
+    /* 指定線高度 */
     line-height: 350px;
+    /* 文字特效 */
     text-decoration: none;
     color:red;
     font-size: 32px;
@@ -182,10 +185,13 @@ footer h2{
 }
 footer #icon a{
     padding: 20px;
+    /* 過渡效果 */
     transition: 0.5s;
+    /* 濾鏡效果 */
     filter: opacity(70%);
 
 }
+    /*滑入  */
 footer #icon a:hover{
     filter: opacity(20%);
 }
