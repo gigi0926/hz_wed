@@ -58,7 +58,7 @@ body{
     display: grid;
     grid-template-columns:  1fr  1fr;
     grid-gap: 50px;
-    padding: 100px;
+    padding: 50px;
     text-align: center;
     margin: 0 auto;
 }
@@ -67,11 +67,11 @@ body{
     background-image: url(./234.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 #news-right{
     height: 300px;
     background-image: url(./18082405411061.jpg);
+    background-size: cover;
 }
     
     
@@ -167,8 +167,9 @@ a.button:hover{
 footer {
     background:cadetblue;
     text-align: center;
-    padding: 100px 0;
+    padding: 90px 0;
     color:sienna ;
+    margin-top: 100px;
 }
 footer h2{
     /* 字体粗細 */
