@@ -57,6 +57,7 @@ body{
     height: 400px;
     background: #ccc;
     display: grid;
+    /* 格線容器 1fr=空間分塊 */
     grid-template-columns:  1fr  1fr;
     grid-gap: 50px;
     padding: 50px;
@@ -201,4 +202,95 @@ footer p{
     padding: 20px;
     color:orangered;
     padding-left: 50px;
+}
+#banner-about{
+    width: 100%;
+    /* vh=高度 */
+    height: 30vh;
+    background-image: url(./18082405411061.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: red;
+    /* 背景固定 */
+    background-attachment: fixed;
+}
+#banner-about nva{
+    backdrop-filter: opacity( 80%);
+}
+#banner-about h2{
+    text-align: center;
+    font-size: 30px;
+    height: 20vh;
+    font-weight: 100;
+    padding-left: 20px;
+    line-height: 20vh;
+    backdrop-filter: opacity(90%);
+}
+#banner a, #banner-about a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0 30px;
+    transition: 0.5s;
+}
+#banner a, #banner-about nav{
+    padding: 30px;
+}
+#banner a:hover, #banner-about a:hover{
+    color: #aaa;
+}
+/* 內文 */
+#about-content{
+    width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 50px 80px;
+    margin-top: 100px;
+}
+#about-content h3{
+    text-align: center;
+    color: ddd;
+    letter-spacing: 10px;
+    padding-left: 10px;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 20px;
+}
+#about-content hr{
+    width: 500px;
+    margin: 0 auto;
+}
+#about-content h1{
+    text-align: center;
+    padding: 20px;
+    color:ccc;
+    letter-spacing: 10px;
+    padding-left: 10px;
+    font-weight: 100;
+}
+#about-content #about-1 {
+    height: 350px;
+    background-image: url(./box_h2.jpg);
+    background-size: cover;
+}
+
+#about-content #about-2 {
+    height: 350px;
+    background-image: url(./ccc.jpg);
+    background-size: cover;
+}
+
+#about-content #about-3 {
+    height: 350px;
+    background-image: url(./gigi.jpg);
+    background-size: cover;
+}
+
+#about-content p {
+    padding: 20px 0;
+    line-height: 2;
+    color: #888;
+}
+footer h2{
+    margin-left: 40px;
 }

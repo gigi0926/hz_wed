@@ -1,0 +1,16 @@
+#banner-about{
+    width: 100%;
+    /* vh=高度 */
+    height: 40vh;
+    background-image: url(./18082405411061.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: red;
+    /* 背景固定 */
+    background-attachment: fixed;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 微軟正黑體;
+}
