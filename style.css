@@ -28,7 +28,7 @@ body{
     padding: 20px;
     text-decoration: none;
     transition:0.3s ;
-    color: yellow;
+    color: rgb(92, 92, 11);
 }
 #banner a :hover{
     color: green;
@@ -214,7 +214,7 @@ footer p{
     /* 背景固定 */
     background-attachment: fixed;
 }
-#banner-about nva{
+#banner-about nav{
     backdrop-filter: opacity( 50%);
 }
 #banner-about h2{
@@ -226,17 +226,17 @@ footer p{
     line-height: 20vh;
     backdrop-filter: opacity(90%);
 }
-#banner a, #banner-about a, #banner-contact{
+#banner a, #banner-about a, #banner-contact a{
     color: blue;
     text-decoration: none;
     font-size: 24px;
     padding: 0 30px;
     transition: 0.5s;
 }
-#banner a, #banner-about nav #banner-contact{
+#banner a, #banner-about nav #banner-contact a{
     padding: 30px;
 }
-#banner a:hover, #banner-about a:hover #banner-contact{
+#banner a:hover, #banner-about a:hover #banner-contact a{
     color: #aaa;
 }
 /* 內文 */
@@ -303,4 +303,48 @@ footer h2{
     height: 30vh;
     background-attachment: fixed;
     color:whithe;
+    font-size: 20px;
+}
+#contact #content{
+
+}
+
+/* 表單 */
+#form-self {
+    width: 700px;
+    padding: 50px 80px;
+    background: #94ddbb;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    margin: 100px auto 150px;
+}
+
+#form-self #name, #form-self #email, #form-self #message{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin: 15px;
+    border: 1px solid rgba(235, 18, 18, 0.1);
+}
+
+label{
+    margin: 15px;
+}
+
+
+#form-self #buttons {
+    text-align: center;
+}
+#form-self #buttons input{
+    margin:15px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+#banner-contact{
+    margin: 20px;
+}
+#banner-contact h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 80px;
+    color: rgb(221, 27, 27);
 }
