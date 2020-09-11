@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background#eee;
+    background:#eee;
     height: 4000px;
 }
 
@@ -77,7 +77,6 @@ body{
 }
     
     
-}
 #news h3{
     color: #aaa;
     padding: 20px;
@@ -305,9 +304,7 @@ footer h2{
     color:whithe;
     font-size: 20px;
 }
-#contact #content{
 
-}
 
 /* 表單 */
 #form-self {
